@@ -1,0 +1,66 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font: normal 14px/20px Arial, Helvetica, sams-serif;
+}
+
+.content{
+	width: 800px;
+	margin: 0 auto;
+}
+
+
+.slider{
+	background: coral;
+	width: 800px;
+}
+
+.slider picture{
+	display: none;
+	width: 800px;
+}
+
+
+
+.content .slider{
+	height: 600px;
+	background-color: lightcoral;
+	position: relative; 
+	transition-duration: 2s; 
+}
+
+.preview{
+	list-style: none; /*ubrat' tochki*/
+	display:inline-block; /*pokazivat' spisok v stroku*/
+
+}
+
+.dots {
+	margin-top: 20px;
+text-align: center;	
+}
+
+.dots a{
+	display:inline;
+	margin: 20px;	
+}
+
+
+
+#left_arrow{
+	float: left;
+	padding-top: 210px;
+	position: absolute;
+	left:10px;
+}
+
+#right_arrow{
+	float: right;
+
+	padding-top: 210px;
+	position: absolute;
+	left:662px;
+}
+
